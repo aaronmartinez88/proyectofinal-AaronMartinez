@@ -1,0 +1,16 @@
+//mixin sin parametros//
+@mixin footermixin {
+    background-color: $footer-below-back-color;
+}
+
+//mixin con parametros//
+@mixin botonMixin($boton-background, $boton-bottom, $boton-display, $boton-position, $boton-right, $boton-border-radius, $boton-font-weight, $boton-font-family) {
+    background: $boton-background;
+    bottom: $boton-bottom;
+    display: $boton-display;
+    position: $boton-position;
+    right: $boton-right;
+    border-radius: $boton-border-radius;
+    font-weight: $boton-font-weight;
+    font-family: $boton-font-family;
+}

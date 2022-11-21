@@ -1,7 +1,7 @@
 /* fondo footer inferior */
 
 .derechos {
-    background-color: $footer-below-back-color;
+    @include footermixin;
   }
   /* fondo footer */
   footer, section {

@@ -1,12 +1,5 @@
 /* carateristicas del boton para subir, posicion, color de fondo, tipo de fuente y grosor de fuente */
 
 .boton {
-    background: #76aadb;
-    bottom: 0px;
-    display: block;
-    position: fixed;
-    right: 0px;
-    border-radius: 50%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+@include botonMixin(#76aadb, 0px, block, fixed, 0px, 50%, bold, Arial );
   }
