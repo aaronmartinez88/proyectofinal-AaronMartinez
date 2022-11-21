@@ -1,4 +1,5 @@
-/*header*/ 
+//*header*// 
+//* *******************************//
 $header-height: 70px;
 $tit-font: donnabold;
 $header-font-color: white;
@@ -12,27 +13,28 @@ $nav-font-size: x-large;
 $nav-font-weight: bold;
 $header-text-decor: none;
 
-/* main*/ 
-/* color de fondo del body */
+//* main*//
+//*************************************************// 
+//* color de fondo del body *//
 $body-back-color: rgb(79, 176, 198);
-/* color y grosor del borde de la imagen del index */
+//* color y grosor del borde de la imagen del index *//
 $index-img-border-radius: 8px;
 $index-img-border: 1px solid white;
-/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula,
- grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
+//* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula,//
+ //grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*//
 $parr-text-align: justify;
 $parr-text-transform: uppercase;
 $parr-font-weight: bold;
 $parr-color: white;
 $parr-font-family: summer;
-/* caracteristicas contenedor de imagen de avion pagina aviones */
+//* caracteristicas contenedor de imagen de avion pagina aviones *//
 $aviones-cont-border-radius: 8px;
 $aviones-cont-border: 1px solid white;
-/* caracteristicas de la caja de cada imagen de ruta, borde, */
+//* caracteristicas de la caja de cada imagen de ruta, borde, *//
 $rutas-cont-display: inline-block;
 $rutas-cont-border: 1px solid white;
 $rutas-cont-border-radius: 8px;
-/* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
+//* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*//
 $nrutas-text-align: center;
 $nrutas-text-transform: uppercase;
 $nrutas-font-size: x-large;
@@ -40,12 +42,12 @@ $nrutas-font-weight: bold;
 $nrutas-font-family: summer;
 $nrutas-position: relative;
 $nrutas-color: white;
-/* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
+//* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura *//
 $empresas-img-cont-border: 1px solid white;
 $empresas-img-cont-display: inline-block;
 $empresas-img-cont-border-radius: 8px;
-/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
-grosor de texto, tamaño de texto, fuente, posicion */
+//* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas,// 
+//grosor de texto, tamaño de texto, fuente, posicion *//
 $nempresas-text-align: center;
 $nempresas-text-transform: uppercase;
 $nempresas-font-size: large;
@@ -53,8 +55,8 @@ $nempresas-font-weight: bold;
 $nempresas-font-family: summer;
 $nempresas-position: relative;
 $nempresas-color: white;
- /* caracteristicas del formulario, alineacion de texto, 
-  mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
+ //* caracteristicas del formulario, alineacion de texto,// 
+  //mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura *//
  $form-text-align: center;
  $form-text-transform: uppercase;
  $form-font-weight: bold;
@@ -62,76 +64,87 @@ $nempresas-color: white;
  $form-color: rgb(33, 37, 58);
  $form-border: 1px solid white;
  $form-border-radius: 8px;
-/* vistas responsive*/
+//* footer *// 
+//*************************************************// 
+//* fondo footer inferior *//
+$footer-below-back-color: #4f86c6;
+//* fondo footer *//
+$footer-back-color: rgb(135, 185, 243);
+//* tipo de fuente para el footer *//
+$footer-font-family: summer;
+//* color de seleccion del link del footer responsive *//
+$footer-hover-color: #B04183;
+//*vistas responsive*//
+//*************************************************// 
 $mobile-view: 350px;
 $tablet-view: 601px;
 $desktop-view: 1024px;
-/* padding titulo principal */
+//* padding titulo principal *//
 $padding-titulo1: 13px;
 $padding-titulo2: 26px;
 $padding-titulo3: 40px;
-/* tamaño contenedor de imagenes de la pagina index */
+//* tamaño contenedor de imagenes de la pagina index *//
 $cont-width-img-1: 350px;
 $cont-width-img-2: 466px;
 $cont-width-img-3: 700px;
 $cont-height-img-1: 225px;
 $cont-height-img-2: 300px;
 $cont-height-img-3: 450px;
-/* tamaño contenedor de imagenes de la pagina aviones */
+//* tamaño contenedor de imagenes de la pagina aviones *//
 $cont-width-img-aviones1: 250px;
 $cont-width-img-aviones2: 500px;
 $cont-width-img-aviones3: 750px;
 $cont-height-img-aviones1: 140px;
 $cont-height-img-aviones2: 280px;
 $cont-height-img-aviones3: 420px;
-/* tamaño contenedor de imagenes de la pagina rutas y empresas */
+//* tamaño contenedor de imagenes de la pagina rutas y empresas *//
 $cont-width-height-img1: 125px;
 $cont-width-height-img2: 166px;
 $cont-width-height-img3: 250px;
-/* tamaño texto de las imagenes pagina empresas */
+//* tamaño texto de las imagenes pagina empresas *//
 $tam-font-img-empresas1: 11px;
 $tam-font-img-empresas2: 14px;
 $tam-font-img-empresas3: 20px;
-/* alineacion texto de las imagenes pagina empresas */
+//* alineacion texto de las imagenes pagina empresas *//
 $align-font-img-empresas1: 98px;
 $align-font-img-empresas2: 130px;
 $align-font-img-empresas3: 220px;
-/* tamaño texto de las imagenes pagina rutas */
+//* tamaño texto de las imagenes pagina rutas *//
 $tam-font-img-rutas1: 15px;
 $tam-font-img-rutas2: 20px;
 $tam-font-img-rutas3: 30px;
-/* alineacion texto de las imagenes pagina rutas */
+//* alineacion texto de las imagenes pagina rutas *//
 $align-font-img-rutas1: 105px;
 $align-font-img-rutas2: 140px;
 $align-font-img-rutas3: 210px;
-/* tamaño texto de los parrafos */
+//* tamaño texto de los parrafos *//
 $tam-font-parrafos1: 15px;
 $tam-font-parrafos2: 20px;
 $tam-font-parrafos3: 30px;
-/* alineacion texto de los parrafos */  
+//* alineacion texto de los parrafos *//  
 $align-font-parrafos: 40px;
 
-/* tamaño texto de los titulos */
+//* tamaño texto de los titulos *//
 $tam-font-titulos1: 40px;
 $tam-font-titulos2: 60px;
-/* tamaño texto y contenedor del boton subir */
+//* tamaño texto y contenedor del boton subir *//
 $cont-width-height-boton1: 40px;
 $cont-width-height-boton2: 60px;
 $tam-font-boton1: 10px;
 $tam-font-boton2: 18px;
-/* tamaño texto y contenedor del formulario */
+//* tamaño texto y contenedor del formulario *//
 $cont-width-form1: 534px;
 $cont-width-form2: 800px;
 $cont-height-form1: 600px;
 $cont-height-form2: 700px;
 $tam-font-form1: 20px;
 $tam-font-form2: 30px;
-/* tamaño del texto del pie de pagina */ 
+//* tamaño del texto del pie de pagina *// 
 $tam-font-footer1: 20px;
 $tam-font-footer2: 30px;   
-/* padding contenido principal de las paginas */
+//* padding contenido principal de las paginas *//
 $padding-main: 50px;  
-/* tamaño de los iconos de redes sociales pie de pagina */
+//* tamaño de los iconos de redes sociales pie de pagina *//
 $cont-width-height-icon1: 23px;
 $cont-width-height-icon2: 34px;
 

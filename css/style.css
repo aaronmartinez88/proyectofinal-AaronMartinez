@@ -1,35 +1,4 @@
 @charset "UTF-8";
-/*header*/
-/* main*/
-/* color de fondo del body */
-/* color y grosor del borde de la imagen del index */
-/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula,
- grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
-/* caracteristicas contenedor de imagen de avion pagina aviones */
-/* caracteristicas de la caja de cada imagen de ruta, borde, */
-/* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
-/* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
-/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
-grosor de texto, tamaño de texto, fuente, posicion */
-/* caracteristicas del formulario, alineacion de texto, 
- mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
-/* vistas responsive*/
-/* padding titulo principal */
-/* tamaño contenedor de imagenes de la pagina index */
-/* tamaño contenedor de imagenes de la pagina aviones */
-/* tamaño contenedor de imagenes de la pagina rutas y empresas */
-/* tamaño texto de las imagenes pagina empresas */
-/* alineacion texto de las imagenes pagina empresas */
-/* tamaño texto de las imagenes pagina rutas */
-/* alineacion texto de las imagenes pagina rutas */
-/* tamaño texto de los parrafos */
-/* alineacion texto de los parrafos */
-/* tamaño texto de los titulos */
-/* tamaño texto y contenedor del boton subir */
-/* tamaño texto y contenedor del formulario */
-/* tamaño del texto del pie de pagina */
-/* padding contenido principal de las paginas */
-/* tamaño de los iconos de redes sociales pie de pagina */
 /* estableciendo tamaño del header */
 header {
   height: 70px;
@@ -502,6 +471,7 @@ mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, 
   background-color: #4f86c6;
 }
 
+/* fondo footer */
 footer, section {
   background-color: rgb(135, 185, 243);
 }

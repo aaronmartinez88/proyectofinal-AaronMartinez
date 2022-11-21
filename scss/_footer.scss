@@ -1,23 +1,23 @@
 /* fondo footer inferior */
 
 .derechos {
-    background-color: #4f86c6;
+    background-color: $footer-below-back-color;
   }
-  
+  /* fondo footer */
   footer, section {
-    background-color: rgb(135, 185, 243);
+    background-color: $footer-back-color;
   }
   
   /* tipo de fuente para el footer */
   
   .footer-text {
-    font-family: summer;
+    font-family: $footer-font-family;
   }
   
   /* color de seleccion del link del footer responsive */
   
   .footer-link:hover {
-    color: #B04183;
+    color: $footer-hover-color;
   }
   
   /* animacion iconos de redes sociales del pie de pagina */
