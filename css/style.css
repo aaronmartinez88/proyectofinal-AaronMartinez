@@ -1,5 +1,18 @@
 @charset "UTF-8";
 /*header*/
+/* main*/
+/* color de fondo del body */
+/* color y grosor del borde de la imagen del index */
+/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula,
+ grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
+/* caracteristicas contenedor de imagen de avion pagina aviones */
+/* caracteristicas de la caja de cada imagen de ruta, borde, */
+/* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
+/* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
+/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
+grosor de texto, tamaño de texto, fuente, posicion */
+/* caracteristicas del formulario, alineacion de texto, 
+ mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
 /* vistas responsive*/
 /* padding titulo principal */
 /* tamaño contenedor de imagenes de la pagina index */
@@ -216,7 +229,8 @@ h1 {
   align-items: center;
 }
 
-/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
+/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto
+, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
 p {
   text-align: justify;
   text-transform: uppercase;
@@ -381,7 +395,8 @@ p {
   border-radius: 8px;
 }
 
-/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, grosor de texto, tamaño de texto, fuente, posicion */
+/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
+grosor de texto, tamaño de texto, fuente, posicion */
 .nEmpresa {
   text-align: center;
   text-transform: uppercase;
@@ -404,7 +419,6 @@ p {
   animation-timing-function: ease-in;
 }
 
-/* animacion imagen */
 /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
 .eDos {
   background-image: url(../img/virginaustralia.jpg);
@@ -465,7 +479,8 @@ p {
 }
 
 /* animacion imagen */
-/* caracteristicas del formulario, alineacion de texto, mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
+/* caracteristicas del formulario, alineacion de texto, 
+mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
 .formUno {
   text-align: center;
   text-transform: uppercase;

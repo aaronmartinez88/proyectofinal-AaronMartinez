@@ -11,6 +11,57 @@ $nav-text-transform: uppercase;
 $nav-font-size: x-large;
 $nav-font-weight: bold;
 $header-text-decor: none;
+
+/* main*/ 
+/* color de fondo del body */
+$body-back-color: rgb(79, 176, 198);
+/* color y grosor del borde de la imagen del index */
+$index-img-border-radius: 8px;
+$index-img-border: 1px solid white;
+/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula,
+ grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
+$parr-text-align: justify;
+$parr-text-transform: uppercase;
+$parr-font-weight: bold;
+$parr-color: white;
+$parr-font-family: summer;
+/* caracteristicas contenedor de imagen de avion pagina aviones */
+$aviones-cont-border-radius: 8px;
+$aviones-cont-border: 1px solid white;
+/* caracteristicas de la caja de cada imagen de ruta, borde, */
+$rutas-cont-display: inline-block;
+$rutas-cont-border: 1px solid white;
+$rutas-cont-border-radius: 8px;
+/* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
+$nrutas-text-align: center;
+$nrutas-text-transform: uppercase;
+$nrutas-font-size: x-large;
+$nrutas-font-weight: bold;
+$nrutas-font-family: summer;
+$nrutas-position: relative;
+$nrutas-color: white;
+/* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
+$empresas-img-cont-border: 1px solid white;
+$empresas-img-cont-display: inline-block;
+$empresas-img-cont-border-radius: 8px;
+/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
+grosor de texto, tamaño de texto, fuente, posicion */
+$nempresas-text-align: center;
+$nempresas-text-transform: uppercase;
+$nempresas-font-size: large;
+$nempresas-font-weight: bold;
+$nempresas-font-family: summer;
+$nempresas-position: relative;
+$nempresas-color: white;
+ /* caracteristicas del formulario, alineacion de texto, 
+  mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
+ $form-text-align: center;
+ $form-text-transform: uppercase;
+ $form-font-weight: bold;
+ $form-font-family: summer;
+ $form-color: rgb(33, 37, 58);
+ $form-border: 1px solid white;
+ $form-border-radius: 8px;
 /* vistas responsive*/
 $mobile-view: 350px;
 $tablet-view: 601px;

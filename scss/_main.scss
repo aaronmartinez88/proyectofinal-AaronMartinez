@@ -12,7 +12,7 @@
   /* color de fondo del body */
   
   body {
-    background-color: rgb(79, 176, 198);
+    background-color: $body-back-color;
   }
   
  
@@ -28,8 +28,8 @@
   /* color y grosor del borde de la imagen del index */
   
   .imgUno {
-    border-radius: 8px;
-    border: 1px solid white;
+    border-radius: $index-img-border-radius;
+    border: $index-img-border;
   }
   
   /* duracion y caracteristicas animacion imagenes index*/
@@ -177,21 +177,22 @@
     align-items: center;
   }
   
-  /* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
+  /* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto
+  , tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
   
   p {
-    text-align: justify;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    font-family: summer;
+    text-align: $parr-text-align;
+    text-transform: $parr-text-transform;
+    font-weight: $parr-font-weight;
+    color: $parr-color;
+    font-family: $parr-font-family;
   }
   
   /* caracteristicas contenedor de imagen de avion pagina aviones */
   
   .aviones {
-    border-radius: 8px;
-    border: 1px solid white;
+    border-radius: $aviones-cont-border-radius;
+    border: $aviones-cont-border;
   }
   
   /* caracteristicas de imagen de avion */
@@ -262,9 +263,9 @@
   /* caracteristicas de la caja de cada imagen de ruta, borde, */
   
   .rutas {
-    display: inline-block;
-    border: 1px solid white;
-    border-radius: 8px;
+    display: $rutas-cont-display;
+    border: $rutas-cont-border;
+    border-radius: $rutas-cont-border-radius;
   }
   
   /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
@@ -350,33 +351,34 @@
   /* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
   
   .nRuta {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: x-large;
-    font-weight: bold;
-    font-family: summer;
-    position: relative;
-    color: white;
+    text-align: $nrutas-text-align;
+    text-transform: $nrutas-text-transform;
+    font-size: $nrutas-font-size;
+    font-weight: $nrutas-font-weight;
+    font-family: $nrutas-font-family;
+    position: $nrutas-position;
+    color: $nrutas-color;
   }
   
   /* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
   
   .empresas {
-    border: 1px solid white;
-    display: inline-block;
-    border-radius: 8px;
+    border: $empresas-img-cont-border;
+    display: $empresas-img-cont-display;
+    border-radius: $empresas-img-cont-border-radius;
   }
   
-  /* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, grosor de texto, tamaño de texto, fuente, posicion */
+  /* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
+  grosor de texto, tamaño de texto, fuente, posicion */
   
   .nEmpresa {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: large;
-    font-weight: bold;
-    font-family: summer;
-    position: relative;
-    color: white;
+    text-align: $nempresas-text-align;
+    text-transform: $nempresas-text-transform;
+    font-size: $nempresas-font-size;
+    font-weight: $nempresas-font-weight;
+    font-family: $nempresas-font-family;
+    position: $nempresas-position;
+    color: $nempresas-color;
   }
   
   /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
@@ -393,7 +395,6 @@
     }
   }
   
-  /* animacion imagen */
   
   /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
   
@@ -469,16 +470,17 @@
   
   /* animacion imagen */
   
-  /* caracteristicas del formulario, alineacion de texto, mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
+  /* caracteristicas del formulario, alineacion de texto, 
+  mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
   
   .formUno {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: summer;
-    color: rgb(33, 37, 58);
-    border: 1px solid white;
-    border-radius: 8px;
+    text-align: $form-text-align;
+    text-transform: $form-text-transform;
+    font-weight: $form-font-weight;
+    font-family: $form-font-family;
+    color: $form-color;
+    border: $form-border;
+    border-radius: $form-border-radius;
   }
   
   /* ruta de la imagen de fondo, que cubra toda el area del formulario y que no se superponga al menu */
