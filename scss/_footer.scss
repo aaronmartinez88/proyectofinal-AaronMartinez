@@ -1,0 +1,58 @@
+/* fondo footer inferior */
+
+.derechos {
+    background-color: #4f86c6;
+  }
+  
+  footer, section {
+    background-color: rgb(135, 185, 243);
+  }
+  
+  /* tipo de fuente para el footer */
+  
+  .footer-text {
+    font-family: summer;
+  }
+  
+  /* color de seleccion del link del footer responsive */
+  
+  .footer-link:hover {
+    color: #B04183;
+  }
+  
+  /* animacion iconos de redes sociales del pie de pagina */
+  
+  .footerIcon {
+    animation-name: icono;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+  
+  /* animacion iconos footer */
+  @keyframes icono {
+    0% {
+      transform: rotateY(2rad);
+    }
+  
+    20% {
+      transform: rotateY(1rad);
+    }
+  
+    40% {
+      transform: rotateY(0rad);
+    }
+  
+    60% {
+      transform: rotateY(1rad);
+    }
+  
+    80% {
+      transform: rotateY(2rad);
+    }
+  
+    100% {
+      transform: rotateY(3rad);
+    }
+  }
+  

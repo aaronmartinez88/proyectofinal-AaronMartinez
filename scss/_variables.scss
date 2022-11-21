@@ -1,0 +1,88 @@
+/*header*/ 
+$header-height: 70px;
+$tit-font: donnabold;
+$header-font-color: white;
+$header-font: summer;
+$nav-hover-font-color: #B04183;
+$nav-back-color: rgb(79, 134, 198);
+$nav-active-font-color: rgb(33, 37, 58);
+$nav-text-align: right;
+$nav-text-transform: uppercase; 
+$nav-font-size: x-large;
+$nav-font-weight: bold;
+$header-text-decor: none;
+/* vistas responsive*/
+$mobile-view: 350px;
+$tablet-view: 601px;
+$desktop-view: 1024px;
+/* padding titulo principal */
+$padding-titulo1: 13px;
+$padding-titulo2: 26px;
+$padding-titulo3: 40px;
+/* tamaño contenedor de imagenes de la pagina index */
+$cont-width-img-1: 350px;
+$cont-width-img-2: 466px;
+$cont-width-img-3: 700px;
+$cont-height-img-1: 225px;
+$cont-height-img-2: 300px;
+$cont-height-img-3: 450px;
+/* tamaño contenedor de imagenes de la pagina aviones */
+$cont-width-img-aviones1: 250px;
+$cont-width-img-aviones2: 500px;
+$cont-width-img-aviones3: 750px;
+$cont-height-img-aviones1: 140px;
+$cont-height-img-aviones2: 280px;
+$cont-height-img-aviones3: 420px;
+/* tamaño contenedor de imagenes de la pagina rutas y empresas */
+$cont-width-height-img1: 125px;
+$cont-width-height-img2: 166px;
+$cont-width-height-img3: 250px;
+/* tamaño texto de las imagenes pagina empresas */
+$tam-font-img-empresas1: 11px;
+$tam-font-img-empresas2: 14px;
+$tam-font-img-empresas3: 20px;
+/* alineacion texto de las imagenes pagina empresas */
+$align-font-img-empresas1: 98px;
+$align-font-img-empresas2: 130px;
+$align-font-img-empresas3: 220px;
+/* tamaño texto de las imagenes pagina rutas */
+$tam-font-img-rutas1: 15px;
+$tam-font-img-rutas2: 20px;
+$tam-font-img-rutas3: 30px;
+/* alineacion texto de las imagenes pagina rutas */
+$align-font-img-rutas1: 105px;
+$align-font-img-rutas2: 140px;
+$align-font-img-rutas3: 210px;
+/* tamaño texto de los parrafos */
+$tam-font-parrafos1: 15px;
+$tam-font-parrafos2: 20px;
+$tam-font-parrafos3: 30px;
+/* alineacion texto de los parrafos */  
+$align-font-parrafos: 40px;
+
+/* tamaño texto de los titulos */
+$tam-font-titulos1: 40px;
+$tam-font-titulos2: 60px;
+/* tamaño texto y contenedor del boton subir */
+$cont-width-height-boton1: 40px;
+$cont-width-height-boton2: 60px;
+$tam-font-boton1: 10px;
+$tam-font-boton2: 18px;
+/* tamaño texto y contenedor del formulario */
+$cont-width-form1: 534px;
+$cont-width-form2: 800px;
+$cont-height-form1: 600px;
+$cont-height-form2: 700px;
+$tam-font-form1: 20px;
+$tam-font-form2: 30px;
+/* tamaño del texto del pie de pagina */ 
+$tam-font-footer1: 20px;
+$tam-font-footer2: 30px;   
+/* padding contenido principal de las paginas */
+$padding-main: 50px;  
+/* tamaño de los iconos de redes sociales pie de pagina */
+$cont-width-height-icon1: 23px;
+$cont-width-height-icon2: 34px;
+
+
+

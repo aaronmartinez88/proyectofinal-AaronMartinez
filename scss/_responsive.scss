@@ -1,0 +1,294 @@
+/* cambio de tamaños y fuentes responsive */
+@media (min-width: $mobile-view ) {
+    /* separacion titulo principal */
+  
+    h1 {
+      padding: $padding-titulo1;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina aviones */
+  
+    .aviones {
+      width: $cont-width-img-aviones1;
+      height: $cont-height-img-aviones1;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina empresas */
+  
+    .empresas {
+      width: $cont-width-height-img1;
+      height: $cont-width-height-img1;
+    }
+  
+    /* tamaño texto de las imagenes pagina empresas */
+  
+    .nEmpresa {
+      font-size: $tam-font-img-empresas1;
+      top: $align-font-img-empresas1;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina rutas */
+  
+    .rutas {
+      width: $cont-width-height-img1;
+      height: $cont-width-height-img1;
+    }
+  
+    /* tamaño texto de las imagenes pagina rutas */
+  
+    .nRuta {
+      font-size: $tam-font-img-rutas1;
+      top: $align-font-img-rutas1;
+    }
+  
+    /* tamaño contenedor imagen del index */
+  
+    .imgUno {
+      width: $cont-width-img-1;
+      height: $cont-height-img-1;
+    }
+  
+    /* tamaño texto de los parrafos */
+  
+    p {
+      font-size: $tam-font-parrafos1;
+      padding: $align-font-parrafos;
+    }
+  
+    /* tamaño texto de los titulos */
+  
+    .aHijo {
+      font-size: $tam-font-titulos1;
+    }
+  
+    /* tamaño texto y contenedor del boton subir */
+  
+    .boton {
+      height: $cont-width-height-boton1;
+      font-size: $tam-font-boton1;
+      width: $cont-width-height-boton1;
+    }
+  
+    /* tamaño texto y contenedor del formulario */
+  
+    .formUno {
+      font-size: $tam-font-form1;
+      width: $cont-width-form1;
+      height: $cont-height-form1;
+    }
+  
+    /* tamaño del texto del pie de pagina */
+  
+    .footer-text {
+      font-size: $tam-font-footer1;
+    }
+  
+    /* agregando separacion al contenido principal de las paginas */
+  
+    main {
+      padding: $padding-main;
+    }
+  
+    /* tamaño de los iconos de redes sociales pie de pagina */
+  
+    .footerIcon {
+      height: cont-width-height-icon1;
+      width: cont-width-height-icon1;
+    }
+}
+  
+  @media (min-width: $tablet-view ) {
+    /* separacion titulo principal */
+  
+    h1 {
+      padding: $padding-titulo2;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina aviones */
+  
+    .aviones {
+      width: $cont-width-img-aviones2;
+      height: $cont-height-img-aviones2;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina empresas */
+  
+    .empresas {
+      width: $cont-width-height-img2;
+      height: $cont-width-height-img2;
+    }
+  
+    /* tamaño del texto de imagenes de la pagina empresas */
+  
+    .nEmpresa {
+      font-size: $tam-font-img-empresas2;
+      top: $align-font-img-empresas2;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina rutas */
+  
+    .rutas {
+      width: $cont-width-height-img2;
+      height: $cont-width-height-img2;
+    }
+  
+    /* tamaño texto de las imagenes pagina rutas */
+  
+    .nRuta {
+      font-size: $tam-font-img-rutas2;
+      top: $align-font-img-rutas2;
+    }
+  
+    /* tamaño contenedor imagen del index */
+  
+    .imgUno {
+      width: $cont-width-img-2;
+      height: $cont-height-img-2;
+    }
+  
+    /* tamaño texto de los parrafos */
+  
+    p {
+      font-size: $tam-font-parrafos2;
+      padding: $align-font-parrafos;
+    }
+  
+    /* tamaño texto de los titulos */
+  
+    .aHijo {
+      font-size: $tam-font-titulos1;
+    }
+  
+    /* tamaño texto y contenedor del boton subir */
+  
+    .boton {
+      height: $cont-width-height-boton1;
+      font-size: $tam-font-boton1;
+      width: $cont-width-height-boton1;
+    }
+  
+    /* tamaño texto y contenedor del formulario */
+  
+    .formUno {
+      font-size: $tam-font-form1;
+      width: $cont-width-form2;
+      height: $cont-height-form2;
+    }
+  
+    /* tamaño del texto del pie de pagina */
+  
+    .footer-text {
+      font-size: $tam-font-footer1;
+    }
+  
+    /* agregando separacion al contenido principal de las paginas */
+  
+    main {
+      padding: $padding-main;
+    }
+  
+    /* tamaño de los iconos de redes sociales pie de pagina */
+  
+    .footerIcon {
+      height: $cont-width-height-icon1;
+      width: $cont-width-height-icon1;
+    }
+  }
+  
+  @media (min-width: $desktop-view ) {
+    /* separacion titulo principal */
+  
+    h1 {
+      padding: $padding-titulo3;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina aviones */
+  
+    .aviones {
+      width: $cont-width-img-aviones3;
+      height: $cont-height-img-aviones3;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina empresas */
+  
+    .empresas {
+      width: $cont-width-height-img3;
+      height: $cont-width-height-img3;
+    }
+  
+    /* tamaño del texto de imagenes de la pagina empresas */
+  
+    .nEmpresa {
+      font-size: $tam-font-img-empresas3;
+      top: $align-font-img-empresas3;
+    }
+  
+    /* tamaño imagenes de rutas */
+  
+    .rutas {
+      width: $cont-width-height-img3;
+      height: $cont-width-height-img3;
+    }
+  
+    /* tamaño nombre de las rutas */
+  
+    .nRuta {
+      font-size: $tam-font-img-rutas3;
+      top: $align-font-img-rutas3;
+    }
+  
+    /* tamaño imagen del index */
+  
+    .imgUno {
+      width: $cont-width-img-3;
+      height: $cont-height-img-3;
+    }
+  
+    /* tamaño parrafos */
+  
+    p {
+      font-size: $tam-font-parrafos3;
+      padding: $align-font-parrafos;
+    }
+  
+    /* tamaño texto de los titulos */
+  
+    .aHijo {
+      font-size: $tam-font-titulos2;
+    }
+  
+    /* tamaño texto y contenedor del boton subir */
+  
+    .boton {
+      height: $cont-width-height-boton2;
+      font-size: $tam-font-boton2;
+      width: $cont-width-height-boton2;
+    }
+  
+    /* tamaño texto y contenedor del formulario */
+  
+    .formUno {
+      font-size: $tam-font-form2;
+      width: $cont-width-form2;
+      height: $cont-height-form2;
+    }
+  
+    /* tamaño del texto del pie de pagina */
+  
+    .footer-text {
+      font-size: $tam-font-footer2;
+    }
+  
+    /* agregando separacion al contenido principal de las paginas */
+  
+    main {
+      padding: $padding-main;
+    }
+  
+    /* tamaño de los iconos de redes sociales pie de pagina */
+  
+    .footerIcon {
+      height: $cont-width-height-icon2;
+      width: $cont-width-height-icon2;
+    }
+  }
