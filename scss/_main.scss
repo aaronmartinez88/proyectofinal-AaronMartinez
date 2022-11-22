@@ -288,7 +288,6 @@ p {
   }
 }
 
-/* animacion imagen */
 
 /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
 
@@ -304,7 +303,6 @@ p {
   }
 }
 
-/* animacion imagen */
 
 /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
 
@@ -320,7 +318,6 @@ p {
   }
 }
 
-/* animacion imagen */
 
 /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
 
@@ -336,7 +333,6 @@ p {
   }
 }
 
-/* animacion imagen */
 
 /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
 
@@ -351,8 +347,41 @@ p {
     animation-timing-function: ease-in;
   }
 }
+.rSeis {
+  background-image: url(../img/egipto.jpg);
+  background-size: cover;
 
-/* animacion imagen */
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+}
+
+.rSiete {
+  background-image: url(../img/thailandia.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+}
+
+.rOcho {
+  background-image: url(../img/losroques.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+}
 
 /* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
 
