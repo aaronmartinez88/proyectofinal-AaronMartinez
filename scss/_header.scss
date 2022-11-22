@@ -1,80 +1,81 @@
  /* estableciendo tamaño del header */
 
  header {
-    height: $header-height;
-  }
+   height: $header-height;
+ }
 
-  /* color titulo principal y fuente */
+ /* color titulo principal y fuente */
 
-  .aHijo {
-    font-family: $tit-font;
-    color: $header-font-color;
-  }
+ .aHijo {
+   font-family: $tit-font;
+   color: $header-font-color;
+ }
 
-  /* citando ubicacion de nueva fuente para el titulo */
-  @font-face {
-    font-family: donnabold;
-    src: url(../font/Donnabold\ Regular.ttf);
-  }
+ /* citando ubicacion de nueva fuente para el titulo */
+ @font-face {
+   font-family: donnabold;
+   src: url(../font/Donnabold\ Regular.ttf);
+ }
 
-  @font-face {
-    font-family: summer;
-    src: url(../font/SF_Arch_Rival.ttf);
-  }
+ @font-face {
+   font-family: summer;
+   src: url(../font/SF_Arch_Rival.ttf);
+ }
 
-  /* quitando linea subrayada y dando color a las palabras del menu*/
+ /* quitando linea subrayada y dando color a las palabras del menu*/
 
-  a {
-    text-decoration: $header-text-decor;
-    color: $header-font-color;
-  }
+ a {
+   text-decoration: $header-text-decor;
+   color: $header-font-color;
+ }
 
-  /* color y fuente menu responsive */
+ /* color y fuente menu responsive */
 
-  .nav-link {
-    color: $header-font-color;
-    font-family: $header-font;
+ .nav-link {
+   color: $header-font-color;
+   font-family: $header-font;
 
-    &:hover {
-      animation-name: menuAnimado;
-      animation-duration: 1s;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      color: $nav-hover-font-color;
-    }
-  }
+   &:hover {
+     animation-name: menuAnimado;
+     animation-duration: 1s;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-in;
+     color: $nav-hover-font-color;
+   }
+ }
 
- 
-  /* caracteristicas del texto del menu y color del fondo */
 
-  nav {
-    text-align: $nav-text-align;
-    text-transform: $nav-text-transform;
-    font-size: $nav-font-size;
-    font-weight: $nav-font-weight;
-    background-color: $nav-back-color;
-  }
+ /* caracteristicas del texto del menu y color del fondo */
+
+ nav {
+   text-align: $nav-text-align;
+   text-transform: $nav-text-transform;
+   font-size: $nav-font-size;
+   font-weight: $nav-font-weight;
+   background-color: $nav-back-color;
+ }
+
  /* cambiando color fuente pagina activa del menu  */
-  
- .navbar-nav > .nav-item > .active {
-  color: $nav-active-font-color;
-}
 
-  /* eliminando viñetas */
+ .navbar-nav>.nav-item>.active {
+   color: $nav-active-font-color;
+ }
 
-  li {
-    list-style-type: $header-text-decor;
-  }
+ /* eliminando viñetas */
 
-  /* animacion de items del menu */
-  @keyframes menuAnimado {
-    0% {
-      transform: scale(1.1, 1.1);
-    }
+ li {
+   list-style-type: $header-text-decor;
+ }
 
-    100% {
-      transform: scale(1.2, 1.2);
-    }
+ /* animacion de items del menu */
+ @keyframes menuAnimado {
+   0% {
+     transform: scale(1.1, 1.1);
+   }
 
-     
-  }
+   100% {
+     transform: scale(1.2, 1.2);
+   }
+
+
+ }

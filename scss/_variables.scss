@@ -8,7 +8,7 @@ $nav-hover-font-color: #B04183;
 $nav-back-color: rgb(79, 134, 198);
 $nav-active-font-color: rgb(33, 37, 58);
 $nav-text-align: right;
-$nav-text-transform: uppercase; 
+$nav-text-transform: uppercase;
 $nav-font-size: x-large;
 $nav-font-weight: bold;
 $header-text-decor: none;
@@ -21,7 +21,7 @@ $body-back-color: rgb(79, 176, 198);
 $index-img-border-radius: 8px;
 $index-img-border: 1px solid white;
 //* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula,//
- //grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*//
+//grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde,*//
 $parr-text-align: justify;
 $parr-text-transform: uppercase;
 $parr-font-weight: bold;
@@ -55,15 +55,15 @@ $nempresas-font-weight: bold;
 $nempresas-font-family: summer;
 $nempresas-position: relative;
 $nempresas-color: white;
- //* caracteristicas del formulario, alineacion de texto,// 
-  //mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura *//
- $form-text-align: center;
- $form-text-transform: uppercase;
- $form-font-weight: bold;
- $form-font-family: summer;
- $form-color: rgb(33, 37, 58);
- $form-border: 1px solid white;
- $form-border-radius: 8px;
+//* caracteristicas del formulario, alineacion de texto,// 
+//mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura *//
+$form-text-align: center;
+$form-text-transform: uppercase;
+$form-font-weight: bold;
+$form-font-family: summer;
+$form-color: rgb(33, 37, 58);
+$form-border: 1px solid white;
+$form-border-radius: 8px;
 //* footer *// 
 //*************************************************// 
 //* fondo footer inferior *//
@@ -142,12 +142,9 @@ $tam-font-form1: 20px;
 $tam-font-form2: 30px;
 //* tamaño del texto del pie de pagina *// 
 $tam-font-footer1: 20px;
-$tam-font-footer2: 30px;   
+$tam-font-footer2: 30px;
 //* padding contenido principal de las paginas *//
-$padding-main: 50px;  
+$padding-main: 50px;
 //* tamaño de los iconos de redes sociales pie de pagina *//
 $cont-width-height-icon1: 23px;
 $cont-width-height-icon2: 34px;
-
-
-

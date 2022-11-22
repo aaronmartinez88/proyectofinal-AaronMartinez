@@ -1,491 +1,497 @@
 /* animacion titulo principal */
 @keyframes texto {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 100%;
-    }
+  0% {
+    opacity: 0;
   }
-  
-  /* color de fondo del body */
-  
-  body {
-    background-color: $body-back-color;
+
+  100% {
+    opacity: 100%;
   }
-  
- 
-  /* posicionamiento del titulo principal en el index */
-  
-  h1 {
-    animation-name: texto;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  
-  }
-  
-  /* color y grosor del borde de la imagen del index */
-  
-  .imgUno {
-    border-radius: $index-img-border-radius;
-    border: $index-img-border;
-  }
-  
-  /* duracion y caracteristicas animacion imagenes index*/
-  .imgItem {
-    
-    animation-name: imagenesIndex;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-    
-    
-    
-  }
-  
-  
-  /* animacion imagenes pagina principal */
+}
+
+/* color de fondo del body */
+
+body {
+  background-color: $body-back-color;
+}
+
+
+/* posicionamiento del titulo principal en el index */
+
+h1 {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+
+/* color y grosor del borde de la imagen del index */
+
+.imgUno {
+  border-radius: $index-img-border-radius;
+  border: $index-img-border;
+}
+
+/* duracion y caracteristicas animacion imagenes index*/
+.imgItem {
+
+  animation-name: imagenesIndex;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+
+
+
+}
+
+
+/* animacion imagenes pagina principal */
 @keyframes imagenesIndex {
   0% {
-  
+
     background-image: url(../img/cataratas-de-iguazu-argentina-y-brasil.jpg);
     background-size: cover;
     background-position: center;
-    
-    
-    
+
+
+
   }
-  
+
   9% {
-   
-  background-image: url(../img/machu-picchu-peru.jpg);
-  background-size: cover;
-  background-position: center;
-  
+
+    background-image: url(../img/machu-picchu-peru.jpg);
+    background-size: cover;
+    background-position: center;
+
   }
-  
+
   16% {
-    
+
     background-image: url(../img/coliseo-roma-italia.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
- 
+
   23% {
-  
+
     background-image: url(../img/cristo-redentor-rio-de-janeiro-brasil.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
-  
+
   30% {
-   
+
     background-image: url(../img/gran-palacio-de-bangkok-tailandia.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
- 
+
   37% {
-   
+
     background-image: url(../img/gran-piramide-de-guiza-egipto.jpg);
     background-size: cover;
     background-position: center;
-   
+
   }
- 
+
   44% {
-    
+
     background-image: url(../img/gyeongbokgung-seul-corea-del-sur.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
 
   51% {
-   
+
     background-image: url(../img/kilimanjaro-tanzania.jpg);
     background-size: cover;
     background-position: center;
-   
+
   }
-  
+
   58% {
-   
+
     background-image: url(../img/monte-fuji-japon.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
-  
+
   65% {
- 
+
     background-image: url(../img/opera-de-sidney-australia.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
 
   72% {
-    
+
     background-image: url(../img/santa-sofia-estambul-turquia.jpg);
     background-size: cover;
     background-position: center;
-   
+
   }
- 
+
   79% {
-    
+
     background-image: url(../img/templo-expiatorio-de-la-sagrada-familia-barcelona-espana.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
- 
+
   86% {
     background-image: url(../img/torre-de-pisa-italia.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
 
   93% {
-  
+
     background-image: url(../img/monte-everest-nepal-y-china.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
+
   100% {
-  
+
     background-image: url(../img/cataratas-de-iguazu-argentina-y-brasil.jpg);
     background-size: cover;
     background-position: center;
-    
+
   }
- 
+
 }
 
-  /* posicionamiento titulo principal resto de las paginas con flexbox*/
-  
-  .aFlex {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-  }
-  
-  /* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto
+/* posicionamiento titulo principal resto de las paginas con flexbox*/
+
+.aFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto
   , tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
-  
-  p {
-    text-align: $parr-text-align;
-    text-transform: $parr-text-transform;
-    font-weight: $parr-font-weight;
-    color: $parr-color;
-    font-family: $parr-font-family;
+
+p {
+  text-align: $parr-text-align;
+  text-transform: $parr-text-transform;
+  font-weight: $parr-font-weight;
+  color: $parr-color;
+  font-family: $parr-font-family;
+}
+
+/* caracteristicas contenedor de imagen de avion pagina aviones */
+
+.aviones {
+  border-radius: $aviones-cont-border-radius;
+  border: $aviones-cont-border;
+}
+
+/* caracteristicas de imagen de avion */
+
+.avionUno {
+  background-image: url(../img/747a.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* caracteristicas contenedor de imagen de avion pagina aviones */
-  
-  .aviones {
-    border-radius: $aviones-cont-border-radius;
-    border: $aviones-cont-border;
+}
+
+/* caracteristicas de imagen de avion */
+
+.avionDos {
+  background-image: url(../img/boeing-777.jpeg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* caracteristicas de imagen de avion */
-  
-  .avionUno {
-    background-image: url(../img/747a.jpg);
-    background-size: cover;
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* caracteristicas de imagen de avion */
+
+.avionTres {
+  background-image: url(../img/737max.jpeg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* caracteristicas de imagen de avion */
-  
-  .avionDos {
-    background-image: url(../img/boeing-777.jpeg);
-    background-size: cover;
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* caracteristicas de imagen de avion */
+
+.avionCuatro {
+  background-image: url(../img/boeing-b787-dreamliner.jpeg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* caracteristicas de imagen de avion */
-  
-  .avionTres {
-    background-image: url(../img/737max.jpeg);
-    background-size: cover;
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* caracteristicas de imagen de avion */
+
+.avionCinco {
+  background-image: url(../img/boeing-757.jpeg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* caracteristicas de imagen de avion */
-  
-  .avionCuatro {
-    background-image: url(../img/boeing-b787-dreamliner.jpeg);
-    background-size: cover;
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* caracteristicas de la caja de cada imagen de ruta, borde, */
+
+.rutas {
+  display: $rutas-cont-display;
+  border: $rutas-cont-border;
+  border-radius: $rutas-cont-border-radius;
+}
+
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+
+.rUno {
+  background-image: url(../img/madrid.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* caracteristicas de imagen de avion */
-  
-  .avionCinco {
-    background-image: url(../img/boeing-757.jpeg);
-    background-size: cover;
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* animacion imagen */
+
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+
+.rDos {
+  background-image: url(../img/Londres.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* caracteristicas de la caja de cada imagen de ruta, borde, */
-  
-  .rutas {
-    display: $rutas-cont-display;
-    border: $rutas-cont-border;
-    border-radius: $rutas-cont-border-radius;
+}
+
+/* animacion imagen */
+
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+
+.rTres {
+  background-image: url(../img/Miami.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
-  
-  .rUno {
-    background-image: url(../img/madrid.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* animacion imagen */
+
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+
+.rCuatro {
+  background-image: url(../img/paris.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* animacion imagen */
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
-  
-  .rDos {
-    background-image: url(../img/Londres.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* animacion imagen */
+
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+
+.rCinco {
+  background-image: url(../img/tokio.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* animacion imagen */
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
-  
-  .rTres {
-    background-image: url(../img/Miami.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
-  }
-  
-  /* animacion imagen */
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
-  
-  .rCuatro {
-    background-image: url(../img/paris.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
-  }
-  
-  /* animacion imagen */
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .rutas */
-  
-  .rCinco {
-    background-image: url(../img/tokio.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
-  }
-  
-  /* animacion imagen */
-  
-  /* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
-  
-  .nRuta {
-    text-align: $nrutas-text-align;
-    text-transform: $nrutas-text-transform;
-    font-size: $nrutas-font-size;
-    font-weight: $nrutas-font-weight;
-    font-family: $nrutas-font-family;
-    position: $nrutas-position;
-    color: $nrutas-color;
-  }
-  
-  /* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
-  
-  .empresas {
-    border: $empresas-img-cont-border;
-    display: $empresas-img-cont-display;
-    border-radius: $empresas-img-cont-border-radius;
-  }
-  
-  /* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
+}
+
+/* animacion imagen */
+
+/* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, fuente*/
+
+.nRuta {
+  text-align: $nrutas-text-align;
+  text-transform: $nrutas-text-transform;
+  font-size: $nrutas-font-size;
+  font-weight: $nrutas-font-weight;
+  font-family: $nrutas-font-family;
+  position: $nrutas-position;
+  color: $nrutas-color;
+}
+
+/* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
+
+.empresas {
+  border: $empresas-img-cont-border;
+  display: $empresas-img-cont-display;
+  border-radius: $empresas-img-cont-border-radius;
+}
+
+/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
   grosor de texto, tamaño de texto, fuente, posicion */
-  
-  .nEmpresa {
-    text-align: $nempresas-text-align;
-    text-transform: $nempresas-text-transform;
-    font-size: $nempresas-font-size;
-    font-weight: $nempresas-font-weight;
-    font-family: $nempresas-font-family;
-    position: $nempresas-position;
-    color: $nempresas-color;
+
+.nEmpresa {
+  text-align: $nempresas-text-align;
+  text-transform: $nempresas-text-transform;
+  font-size: $nempresas-font-size;
+  font-weight: $nempresas-font-weight;
+  font-family: $nempresas-font-family;
+  position: $nempresas-position;
+  color: $nempresas-color;
+}
+
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+
+.eUno {
+  background-image: url(../img/qatarairways.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-  
-  .eUno {
-    background-image: url(../img/qatarairways.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+
+.eDos {
+  background-image: url(../img/virginaustralia.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-  
-  .eDos {
-    background-image: url(../img/virginaustralia.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+
+/* animacion imagenes */
+@keyframes imagenes {
+  0% {
+    transform: scale(1.1);
   }
-  
- 
-    /* animacion imagenes */
-    @keyframes imagenes {
-      0% {
-        transform: scale(1.1);
-      }
-    
-      100% {
-        transform: scale(1.2);
-      }
-    }
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-  
-  .eTres {
-    background-image: url(../img/americanairlines.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+
+  100% {
+    transform: scale(1.2);
   }
-  
-  /* animacion imagen */
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-  
-  .eCuatro {
-    background-image: url(../img/copaairlines.jpg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+
+.eTres {
+  background-image: url(../img/americanairlines.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* animacion imagen */
-  
-  /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-  
-  .eCinco {
-    background-image: url(../img/aerolineasargentinas.jpeg);
-    background-size: cover;
-  
-    &:hover {
-      animation-name: imagenes;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-    }
+}
+
+/* animacion imagen */
+
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+
+.eCuatro {
+  background-image: url(../img/copaairlines.jpg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
   }
-  
-  /* animacion imagen */
-  
-  /* caracteristicas del formulario, alineacion de texto, 
+}
+
+/* animacion imagen */
+
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+
+.eCinco {
+  background-image: url(../img/aerolineasargentinas.jpeg);
+  background-size: cover;
+
+  &:hover {
+    animation-name: imagenes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+}
+
+/* animacion imagen */
+
+/* caracteristicas del formulario, alineacion de texto, 
   mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
-  
-  .formUno {
-    text-align: $form-text-align;
-    text-transform: $form-text-transform;
-    font-weight: $form-font-weight;
-    font-family: $form-font-family;
-    color: $form-color;
-    border: $form-border;
-    border-radius: $form-border-radius;
-  }
-  
-  /* ruta de la imagen de fondo, que cubra toda el area del formulario y que no se superponga al menu */
-  
-  .formFondo {
-    background-image: url(../img/form.jpg);
-    background-size: cover;
-  }
+
+.formUno {
+  text-align: $form-text-align;
+  text-transform: $form-text-transform;
+  font-weight: $form-font-weight;
+  font-family: $form-font-family;
+  color: $form-color;
+  border: $form-border;
+  border-radius: $form-border-radius;
+}
+
+/* ruta de la imagen de fondo, que cubra toda el area del formulario y que no se superponga al menu */
+
+.formFondo {
+  background-image: url(../img/form.jpg);
+  background-size: cover;
+}

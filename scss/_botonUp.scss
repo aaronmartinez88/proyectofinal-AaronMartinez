@@ -1,5 +1,5 @@
 /* carateristicas del boton para subir, posicion, color de fondo, tipo de fuente y grosor de fuente */
 
 .boton {
-@include botonMixin(#76aadb, 0px, block, fixed, 0px, 50%, bold, Arial );
-  }
+  @include botonMixin(#76aadb, 0px, block, fixed, 0px, 50%, bold, Arial);
+}

@@ -199,7 +199,7 @@ h1 {
 }
 
 /* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto
-, tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
+  , tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
 p {
   text-align: justify;
   text-transform: uppercase;
@@ -365,7 +365,7 @@ p {
 }
 
 /* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
-grosor de texto, tamaño de texto, fuente, posicion */
+  grosor de texto, tamaño de texto, fuente, posicion */
 .nEmpresa {
   text-align: center;
   text-transform: uppercase;
@@ -449,7 +449,7 @@ grosor de texto, tamaño de texto, fuente, posicion */
 
 /* animacion imagen */
 /* caracteristicas del formulario, alineacion de texto, 
-mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
+  mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
 .formUno {
   text-align: center;
   text-transform: uppercase;
@@ -472,7 +472,8 @@ mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, 
 }
 
 /* fondo footer */
-footer, section {
+footer,
+section {
   background-color: rgb(135, 185, 243);
 }
 
