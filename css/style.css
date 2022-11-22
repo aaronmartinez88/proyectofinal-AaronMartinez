@@ -66,37 +66,40 @@ li {
     transform: scale(1.2, 1.2);
   }
 }
-/* carateristicas del boton para subir, posicion, color de fondo, tipo de fuente y grosor de fuente */
-.boton {
-  background: #76aadb;
-  bottom: 0px;
-  display: block;
-  position: fixed;
-  right: 0px;
-  border-radius: 50%;
-  font-weight: bold;
-  font-family: Arial;
+h1 {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
-/* animacion titulo principal */
-@keyframes texto {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-  }
+/* posicionamiento titulo principal resto de las paginas con flexbox*/
+.aFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
 }
+
+.title {
+  color: transparent;
+}
+.title h1 {
+  font-size: 160px;
+  color: transparent;
+}
+
 /* color de fondo del body */
 body {
   background-color: rgb(79, 176, 198);
 }
 
 /* posicionamiento del titulo principal en el index */
-h1 {
-  animation-name: texto;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+/* */
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 /* color y grosor del borde de la imagen del index */
@@ -115,89 +118,81 @@ h1 {
 /* animacion imagenes pagina principal */
 @keyframes imagenesIndex {
   0% {
-    background-image: url(../img/cataratas-de-iguazu-argentina-y-brasil.jpg);
+    background-image: url(../img/qatarairways.jpg);
     background-size: cover;
     background-position: center;
   }
   9% {
-    background-image: url(../img/machu-picchu-peru.jpg);
+    background-image: url(../img/virginaustralia.jpg);
     background-size: cover;
     background-position: center;
   }
   16% {
-    background-image: url(../img/coliseo-roma-italia.jpg);
+    background-image: url(../img/americanairlines.jpg);
     background-size: cover;
     background-position: center;
   }
   23% {
-    background-image: url(../img/cristo-redentor-rio-de-janeiro-brasil.jpg);
+    background-image: url(../img/copaairlines.jpg);
     background-size: cover;
     background-position: center;
   }
   30% {
-    background-image: url(../img/gran-palacio-de-bangkok-tailandia.jpg);
+    background-image: url(../img/aerolineasargentinas.jpeg);
     background-size: cover;
     background-position: center;
   }
   37% {
-    background-image: url(../img/gran-piramide-de-guiza-egipto.jpg);
+    background-image: url(../img/AirFrance.png);
     background-size: cover;
     background-position: center;
   }
   44% {
-    background-image: url(../img/gyeongbokgung-seul-corea-del-sur.jpg);
+    background-image: url(../img/airnewzealand.jpg);
     background-size: cover;
     background-position: center;
   }
   51% {
-    background-image: url(../img/kilimanjaro-tanzania.jpg);
+    background-image: url(../img/EtihadAirways.jpg);
     background-size: cover;
     background-position: center;
   }
   58% {
-    background-image: url(../img/monte-fuji-japon.jpg);
+    background-image: url(../img/evaair.jpg);
     background-size: cover;
     background-position: center;
   }
   65% {
-    background-image: url(../img/opera-de-sidney-australia.jpg);
+    background-image: url(../img/KoreanAir.jpeg);
     background-size: cover;
     background-position: center;
   }
   72% {
-    background-image: url(../img/santa-sofia-estambul-turquia.jpg);
+    background-image: url(../img/Qantasairlines.jpg);
     background-size: cover;
     background-position: center;
   }
   79% {
-    background-image: url(../img/templo-expiatorio-de-la-sagrada-familia-barcelona-espana.jpg);
+    background-image: url(../img/sigaporeairlines.jpg);
     background-size: cover;
     background-position: center;
   }
   86% {
-    background-image: url(../img/torre-de-pisa-italia.jpg);
+    background-image: url(../img/turkishairlines.jpg);
     background-size: cover;
     background-position: center;
   }
   93% {
-    background-image: url(../img/monte-everest-nepal-y-china.jpg);
+    background-image: url(../img/britishairways.jpg);
     background-size: cover;
     background-position: center;
   }
   100% {
-    background-image: url(../img/cataratas-de-iguazu-argentina-y-brasil.jpg);
+    background-image: url(../img/qatarairways.jpg);
     background-size: cover;
     background-position: center;
   }
 }
-/* posicionamiento titulo principal resto de las paginas con flexbox*/
-.aFlex {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-}
-
 /* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto
   , tipo de fuente, borde, grosor de borde y caracteristica de borde,*/
 p {
@@ -385,49 +380,6 @@ p {
   color: white;
 }
 
-/* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
-.empresas {
-  border: 1px solid white;
-  display: inline-block;
-  border-radius: 8px;
-}
-
-/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, 
-  grosor de texto, tamaño de texto, fuente, posicion */
-.nEmpresa {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: large;
-  font-weight: bold;
-  font-family: summer;
-  position: relative;
-  color: white;
-}
-
-/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-.eUno {
-  background-image: url(../img/qatarairways.jpg);
-  background-size: cover;
-}
-.eUno:hover {
-  animation-name: imagenes;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-}
-
-/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-.eDos {
-  background-image: url(../img/virginaustralia.jpg);
-  background-size: cover;
-}
-.eDos:hover {
-  animation-name: imagenes;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-}
-
 /* animacion imagenes */
 @keyframes imagenes {
   0% {
@@ -437,45 +389,6 @@ p {
     transform: scale(1.2);
   }
 }
-/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-.eTres {
-  background-image: url(../img/americanairlines.jpg);
-  background-size: cover;
-}
-.eTres:hover {
-  animation-name: imagenes;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-}
-
-/* animacion imagen */
-/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-.eCuatro {
-  background-image: url(../img/copaairlines.jpg);
-  background-size: cover;
-}
-.eCuatro:hover {
-  animation-name: imagenes;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-}
-
-/* animacion imagen */
-/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
-.eCinco {
-  background-image: url(../img/aerolineasargentinas.jpeg);
-  background-size: cover;
-}
-.eCinco:hover {
-  animation-name: imagenes;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-}
-
-/* animacion imagen */
 /* caracteristicas del formulario, alineacion de texto, 
   mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
 .formUno {
@@ -492,6 +405,18 @@ p {
 .formFondo {
   background-image: url(../img/form.jpg);
   background-size: cover;
+}
+
+button, .btn-primary, .btn-block {
+  background-color: #4f86c6;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+#form4Example4 {
+  background-color: #4f86c6;
+  border: 1px solid white;
+  border-radius: 8px;
 }
 
 /* fondo footer inferior */
@@ -544,26 +469,44 @@ section {
     transform: rotateY(3rad);
   }
 }
+/* carateristicas del boton para subir, posicion, color de fondo, tipo de fuente y grosor de fuente */
+.boton {
+  background: #76aadb;
+  bottom: 0px;
+  display: block;
+  position: fixed;
+  right: 0px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
 /* cambio de tamaños y fuentes responsive */
 @media (min-width: 350px) {
   /* separacion titulo principal */
   h1 {
     padding: 13px;
   }
+  .video {
+    width: 350px;
+    height: 225px;
+  }
   /* tamaño contenedor de imagenes de la pagina aviones */
   .aviones {
     width: 250px;
     height: 140px;
-  }
-  /* tamaño contenedor de imagenes de la pagina empresas */
-  .empresas {
-    width: 125px;
-    height: 125px;
-  }
-  /* tamaño texto de las imagenes pagina empresas */
-  .nEmpresa {
-    font-size: 11px;
-    top: 98px;
   }
   /* tamaño contenedor de imagenes de la pagina rutas */
   .rutas {
@@ -619,6 +562,10 @@ section {
   /* separacion titulo principal */
   h1 {
     padding: 26px;
+  }
+  .video {
+    width: 466px;
+    height: 300px;
   }
   /* tamaño contenedor de imagenes de la pagina aviones */
   .aviones {
@@ -690,6 +637,10 @@ section {
   h1 {
     padding: 40px;
   }
+  .video {
+    width: 898px;
+    height: 547px;
+  }
   /* tamaño contenedor de imagenes de la pagina aviones */
   .aviones {
     width: 750px;
@@ -717,8 +668,8 @@ section {
   }
   /* tamaño imagen del index */
   .imgUno {
-    width: 700px;
-    height: 450px;
+    width: 898px;
+    height: 547px;
   }
   /* tamaño parrafos */
   p {

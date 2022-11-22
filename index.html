@@ -15,27 +15,16 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- Mi CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- precarga de imagenes para animacion -->
-  <link rel="preload" as="image" href="img/cataratas-de-iguazu-argentina-y-brasil.jpg">
-  <link rel="preload" as="image" href="img/machu-picchu-peru.jpg">
-  <link rel="preload" as="image" href="img/coliseo-roma-italia.jpg">
-  <link rel="preload" as="image" href="img/cristo-redentor-rio-de-janeiro-brasil.jpg">
-  <link rel="preload" as="image" href="img/gran-palacio-de-bangkok-tailandia.jpg">
-  <link rel="preload" as="image" href="img/gran-piramide-de-guiza-egipto.jpg">
-  <link rel="preload" as="image" href="img/gyeongbokgung-seul-corea-del-sur.jpg">
-  <link rel="preload" as="image" href="img/kilimanjaro-tanzania.jpg">
-  <link rel="preload" as="image" href="img/monte-fuji-japon.jpg">
-  <link rel="preload" as="image" href="img/opera-de-sidney-australia.jpg">
-  <link rel="preload" as="image" href="img/santa-sofia-estambul-turquia.jpg">
-  <link rel="preload" as="image" href="img/templo-expiatorio-de-la-sagrada-familia-barcelona-espana.jpg">
-  <link rel="preload" as="image" href="img/torre-de-pisa-italia.jpg">
-  <link rel="preload" as="image" href="img/monte-everest-nepal-y-china.jpg">
+
 </head>
 
 <body>
   <!-- inicio del menu del encabezado -->
   <header>
     <div>
+      <video autoplay loop muted plays-inline preload="auto" class="back-video">
+        <source src="video/avion.mp4" type="video/mp4">
+      </video>
       <nav class="navbar navbar-expand-lg fixed-top navbar-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -59,30 +48,39 @@
 
   </header>
   <main>
-    <div class="aFlex">
-      <!-- titulo principal -->
-      <h1 class="aHijo">VUELOS</h1>
-    </div>
-    <!-- envolviendo en contenedor bootstrap para que sea responsive -->
     <ul class="container-fluid">
       <div class="row justify-content-center">
-        <!-- Imagen principal -->
-        <li class="column imgUno imgItem">
-          <h2></h2>
-        </li>
-        <!-- parrafo principal -->
-        <li class="column parrafoUno">
-          <p>Vuelos directos en Sudamérica, el Caribe, Europa, Estados Unidos y por todo el mundo. Comprá tu pasaje.
-            Cataratas, Mar, Glaciares, Viñedos, Sierras, Montañas, Ríos, Lagunas te esperan.</p>
-        </li>
-
+        <div class="title">
+          <!-- titulo principal -->
+          <h1 class="aHijo">VUELOS</h1>
+        </div>
       </div>
-    </ul>
+      <!-- envolviendo en contenedor bootstrap para que sea responsive -->
+      <ul class="container-fluid">
+        <div class="row justify-content-center">
 
-    <!-- boton para ir al inicio de la pagina -->
-    <button class="boton"> <a href="index.html">Subir</a>
+          <li>
 
-    </button>
+            <audio controls autoplay hidden loop preload="auto">
+              <source src="video/disneyworld.mp3" type="audio/mp3">
+              unsupported !!
+            </audio>
+
+          </li>
+          <!-- parrafo principal -->
+          <li class="column parrafoUno">
+
+            <p>Vuelos directos en Sudamérica, el Caribe, Europa, Estados Unidos y por todo el mundo. Comprá tu pasaje.
+              Cataratas, Mar, Glaciares, Viñedos, Sierras, Montañas, Ríos, Lagunas te esperan.</p>
+          </li>
+
+        </div>
+      </ul>
+
+      <!-- boton para ir al inicio de la pagina -->
+      <button class="boton"> <a href="index.html">Subir</a>
+
+      </button>
   </main>
   <!-- comienza el pie de pagina -->
   <footer class="text-center text-white">
