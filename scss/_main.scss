@@ -16,12 +16,8 @@
 }
 
 .title {
-  color: transparent;
-  
   & h1 {
-    font-size: 160px;
-    color: transparent;
-    
+    font-size: 600%;
   }
 }
 /* color de fondo del body */
@@ -35,13 +31,25 @@ body {
 
 
 
-/* */
-.back-video {
- position: absolute;
- right: 0;
- bottom: 0;
- z-index: -1;
+/* caracteristicas del contenedor del video*/
 
+.video {
+  margin: $video-class-margin;
+  width: $video-class-width;
+  height: $video-class-height;
+  padding-top: $video-class-padding-top;
+  background-color: $body-back-color;
+  position: $video-class-position;
+  & video {
+    width: $video-width;
+    height: $video-height;
+    position: $video-position;
+    top:$video-top;
+    left: $video-left;
+    border-radius: $video-border-radius;
+    border: $rutas-cont-border;
+    overflow: $video-overflow;
+  }
 }
 
 

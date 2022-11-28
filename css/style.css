@@ -80,12 +80,8 @@ h1 {
   align-items: center;
 }
 
-.title {
-  color: transparent;
-}
 .title h1 {
-  font-size: 160px;
-  color: transparent;
+  font-size: 600%;
 }
 
 /* color de fondo del body */
@@ -94,12 +90,24 @@ body {
 }
 
 /* posicionamiento del titulo principal en el index */
-/* */
-.back-video {
+/* caracteristicas del contenedor del video*/
+.video {
+  margin: 0;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  background-color: rgb(79, 176, 198);
+  position: relative;
+}
+.video video {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid white;
+  overflow: hidden;
 }
 
 /* color y grosor del borde de la imagen del index */
@@ -481,27 +489,11 @@ section {
   font-family: Arial;
 }
 
-@media (min-aspect-ratio: 16/9) {
-  .back-video {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  .back-video {
-    width: auto;
-    height: 100%;
-  }
-}
 /* cambio de tamaños y fuentes responsive */
 @media (min-width: 350px) {
   /* separacion titulo principal */
   h1 {
-    padding: 13px;
-  }
-  .video {
-    width: 350px;
-    height: 225px;
+    padding: 0px;
   }
   /* tamaño contenedor de imagenes de la pagina aviones */
   .aviones {
@@ -526,7 +518,7 @@ section {
   /* tamaño texto de los parrafos */
   p {
     font-size: 15px;
-    padding: 40px;
+    padding: 20px;
   }
   /* tamaño texto de los titulos */
   .aHijo {
@@ -542,7 +534,7 @@ section {
   .formUno {
     font-size: 20px;
     width: 534px;
-    height: 600px;
+    height: 650px;
   }
   /* tamaño del texto del pie de pagina */
   .footer-text {
@@ -550,7 +542,7 @@ section {
   }
   /* agregando separacion al contenido principal de las paginas */
   main {
-    padding: 50px;
+    padding: 10px;
   }
   /* tamaño de los iconos de redes sociales pie de pagina */
   .footerIcon {
@@ -563,24 +555,10 @@ section {
   h1 {
     padding: 26px;
   }
-  .video {
-    width: 466px;
-    height: 300px;
-  }
   /* tamaño contenedor de imagenes de la pagina aviones */
   .aviones {
     width: 500px;
     height: 280px;
-  }
-  /* tamaño contenedor de imagenes de la pagina empresas */
-  .empresas {
-    width: 166px;
-    height: 166px;
-  }
-  /* tamaño del texto de imagenes de la pagina empresas */
-  .nEmpresa {
-    font-size: 14px;
-    top: 130px;
   }
   /* tamaño contenedor de imagenes de la pagina rutas */
   .rutas {
@@ -592,7 +570,7 @@ section {
     font-size: 20px;
     top: 140px;
   }
-  /* tamaño contenedor imagen del index */
+  /* tamaño contenedor imagen de Empresas */
   .imgUno {
     width: 466px;
     height: 300px;
@@ -600,7 +578,7 @@ section {
   /* tamaño texto de los parrafos */
   p {
     font-size: 20px;
-    padding: 40px;
+    padding: 20px;
   }
   /* tamaño texto de los titulos */
   .aHijo {
@@ -616,7 +594,7 @@ section {
   .formUno {
     font-size: 20px;
     width: 800px;
-    height: 700px;
+    height: 650px;
   }
   /* tamaño del texto del pie de pagina */
   .footer-text {
@@ -637,24 +615,10 @@ section {
   h1 {
     padding: 40px;
   }
-  .video {
-    width: 898px;
-    height: 547px;
-  }
   /* tamaño contenedor de imagenes de la pagina aviones */
   .aviones {
     width: 750px;
     height: 420px;
-  }
-  /* tamaño contenedor de imagenes de la pagina empresas */
-  .empresas {
-    width: 250px;
-    height: 250px;
-  }
-  /* tamaño del texto de imagenes de la pagina empresas */
-  .nEmpresa {
-    font-size: 20px;
-    top: 220px;
   }
   /* tamaño imagenes de rutas */
   .rutas {
@@ -674,7 +638,7 @@ section {
   /* tamaño parrafos */
   p {
     font-size: 30px;
-    padding: 40px;
+    padding: 20px;
   }
   /* tamaño texto de los titulos */
   .aHijo {

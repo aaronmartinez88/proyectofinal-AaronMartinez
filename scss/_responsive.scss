@@ -1,15 +1,3 @@
-@media (min-aspect-ratio: 16/9) {
-  .back-video {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  .back-video {
-    width: auto;
-    height: 100%;
-  }
-}
 /* cambio de tamaños y fuentes responsive */
 @media (min-width: $mobile-view ) {
   /* separacion titulo principal */
@@ -17,10 +5,7 @@
   h1 {
     padding: $padding-titulo1;
   }
-  .video {
-    width: $cont-width-img-1;
-    height: $cont-height-img-1;
-  }
+
   /* tamaño contenedor de imagenes de la pagina aviones */
 
   .aviones {
@@ -28,9 +13,8 @@
     height: $cont-height-img-aviones1;
   }
 
- 
 
- 
+
 
   /* tamaño contenedor de imagenes de la pagina rutas */
 
@@ -58,6 +42,7 @@
   p {
     font-size: $tam-font-parrafos1;
     padding: $align-font-parrafos;
+
   }
 
   /* tamaño texto de los titulos */
@@ -91,7 +76,7 @@
   /* agregando separacion al contenido principal de las paginas */
 
   main {
-    padding: $padding-main;
+    padding: $padding-main1;
   }
 
   /* tamaño de los iconos de redes sociales pie de pagina */
@@ -108,10 +93,7 @@
   h1 {
     padding: $padding-titulo2;
   }
-  .video {
-    width: $cont-width-img-2;
-    height: $cont-height-img-2;
-  }
+
   /* tamaño contenedor de imagenes de la pagina aviones */
 
   .aviones {
@@ -119,20 +101,8 @@
     height: $cont-height-img-aviones2;
   }
 
-  /* tamaño contenedor de imagenes de la pagina empresas */
-
-  .empresas {
-    width: $cont-width-height-img2;
-    height: $cont-width-height-img2;
-  }
-
-  /* tamaño del texto de imagenes de la pagina empresas */
-
-  .nEmpresa {
-    font-size: $tam-font-img-empresas2;
-    top: $align-font-img-empresas2;
-  }
-
+  
+  
   /* tamaño contenedor de imagenes de la pagina rutas */
 
   .rutas {
@@ -147,7 +117,7 @@
     top: $align-font-img-rutas2;
   }
 
-  /* tamaño contenedor imagen del index */
+  /* tamaño contenedor imagen de Empresas */
 
   .imgUno {
     width: $cont-width-img-2;
@@ -192,7 +162,7 @@
   /* agregando separacion al contenido principal de las paginas */
 
   main {
-    padding: $padding-main;
+    padding: $padding-main2;
   }
 
   /* tamaño de los iconos de redes sociales pie de pagina */
@@ -209,10 +179,8 @@
   h1 {
     padding: $padding-titulo3;
   }
-  .video {
-    width: $cont-width-img-3;
-    height: $cont-height-img-3;
-  }
+
+
   /* tamaño contenedor de imagenes de la pagina aviones */
 
   .aviones {
@@ -220,19 +188,10 @@
     height: $cont-height-img-aviones3;
   }
 
-  /* tamaño contenedor de imagenes de la pagina empresas */
 
-  .empresas {
-    width: $cont-width-height-img3;
-    height: $cont-width-height-img3;
-  }
 
-  /* tamaño del texto de imagenes de la pagina empresas */
 
-  .nEmpresa {
-    font-size: $tam-font-img-empresas3;
-    top: $align-font-img-empresas3;
-  }
+ 
 
   /* tamaño imagenes de rutas */
 
@@ -281,7 +240,7 @@
   .formUno {
     font-size: $tam-font-form2;
     width: $cont-width-form2;
-    height: $cont-height-form2;
+    height: $cont-height-form3;
   }
 
   /* tamaño del texto del pie de pagina */
@@ -293,7 +252,7 @@
   /* agregando separacion al contenido principal de las paginas */
 
   main {
-    padding: $padding-main;
+    padding: $padding-main2;
   }
 
   /* tamaño de los iconos de redes sociales pie de pagina */

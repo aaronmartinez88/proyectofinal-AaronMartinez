@@ -22,9 +22,7 @@
   <!-- inicio del menu del encabezado -->
   <header>
     <div>
-      <video autoplay loop muted plays-inline preload="auto" class="back-video">
-        <source src="video/avion.mp4" type="video/mp4">
-      </video>
+
       <nav class="navbar navbar-expand-lg fixed-top navbar-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -48,35 +46,39 @@
 
   </header>
   <main>
-    <ul class="container-fluid">
+
+    <!-- envolviendo en contenedor bootstrap para que sea responsive -->
+    <ul class="container">
       <div class="row justify-content-center">
-        <div class="title">
-          <!-- titulo principal -->
+
+        <li class="col title aFlex">
           <h1 class="aHijo">VUELOS</h1>
-        </div>
+        </li>
+        <li class="column">
+          <figure class="video">
+            <video autoplay loop muted plays-inline preload="auto">
+              <source src="video/avion.mp4" type="video/mp4">
+            </video>
+          </figure>
+        </li>
+        <li>
+          <iframe autoplay hidden id="stream" allow="autoplay" src="sound/disneyworld.mp3" frameborder="0"></iframe>
+
+        </li>
+        <!-- parrafo principal -->
+        <li class="col parrafoUno">
+
+          <p>Vuelos directos en Sudamérica, el Caribe, Europa, Estados Unidos y por todo el mundo. Comprá tu pasaje.
+            Cataratas, Mar, Glaciares, Viñedos, Sierras, Montañas, Ríos y Lagunas te esperan.</p>
+        </li>
+
       </div>
-      <!-- envolviendo en contenedor bootstrap para que sea responsive -->
-      <ul class="container-fluid">
-        <div class="row justify-content-center">
+    </ul>
 
-          <li>
-            <iframe autoplay hidden id="stream" allow="autoplay" src="video/disneyworld.mp3" frameborder="0"></iframe>
+    <!-- boton para ir al inicio de la pagina -->
+    <button class="boton"> <a href="index.html">Subir</a>
 
-          </li>
-          <!-- parrafo principal -->
-          <li class="column parrafoUno">
-
-            <p>Vuelos directos en Sudamérica, el Caribe, Europa, Estados Unidos y por todo el mundo. Comprá tu pasaje.
-              Cataratas, Mar, Glaciares, Viñedos, Sierras, Montañas, Ríos, Lagunas te esperan.</p>
-          </li>
-
-        </div>
-      </ul>
-
-      <!-- boton para ir al inicio de la pagina -->
-      <button class="boton"> <a href="index.html">Subir</a>
-
-      </button>
+    </button>
   </main>
   <!-- comienza el pie de pagina -->
   <footer class="text-center text-white">
