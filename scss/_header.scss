@@ -36,10 +36,7 @@
    font-family: $header-font;
 
    &:hover {
-     animation-name: menuAnimado;
-     animation-duration: 1s;
-     animation-iteration-count: 1;
-     animation-timing-function: ease-in;
+     
      color: $nav-hover-font-color;
    }
  }
@@ -66,17 +63,3 @@
  li {
    list-style-type: $header-text-decor;
  }
-
- /* animacion de items del menu */
- @keyframes menuAnimado {
-   0% {
-     transform: scale(1.1, 1.1);
-   }
-
-   100% {
-     transform: scale(1.2, 1.2);
-   }
-
-
- }
- 
